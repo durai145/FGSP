@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FrameGeneratorComponent } from './frame-generator/frame-generator.component';
+import { SchemaRenderDirective } from './schema-render.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FrameGeneratorComponent,
+    SchemaRenderDirective
   ],
   imports: [
     BrowserModule,
